@@ -1,0 +1,6 @@
+ultralytics==8.4.50
+tqdm==4.67.3
+matplotlib==3.10.9
+seaborn==0.13.2
+pathlib==1.0.1
+pillow==12.2.0
