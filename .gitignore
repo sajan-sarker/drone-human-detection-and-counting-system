@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# ignored dirs
+yolo/
+dataset/
+
 # Distribution / packaging
 .Python
 build/
