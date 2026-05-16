@@ -263,7 +263,7 @@ Best epoch on **validation monitor during training** (epoch **58**):
 
 Final epoch (**80**): mAP@0.5 **0.721**, mAP@0.5:0.95 **0.525**.
 
-<img src="runs/obb/yolo26l_drone_v2/results.jpg" width="1000">
+<img src="https://github.com/sajan-sarker/drone-human-detection-and-counting-system/blob/main/runs/obb/results/val_vs_test_comparison.png?raw=true" width="1000">
 
 *Training/validation loss and mAP curves (`results.png`).*
 
@@ -274,7 +274,7 @@ Final epoch (**80**): mAP@0.5 **0.721**, mAP@0.5:0.95 **0.525**.
 | **Validation** | 0.7246 | 0.5275 | 0.7973 | 0.6935 | 0.6347 | 0.8144 |
 | **Test-dev** | 0.6288 | 0.4419 | 0.7750 | 0.6173 | 0.4720 | 0.7856 |
 
-<img src="runs/obb/results/val_vs_test_comparison.jpg" width="1000">
+<img src="https://github.com/sajan-sarker/drone-human-detection-and-counting-system/blob/main/runs/obb/results/val_vs_test_comparison.png?raw=true" width="1000">
 
 *Side-by-side validation vs test-dev metrics.*
 
