@@ -9,3 +9,7 @@ nc: 2
 names:
   0: human
   1: car
+
+cleaning:
+  clip_coords: true
+  convert_to_obb: true
