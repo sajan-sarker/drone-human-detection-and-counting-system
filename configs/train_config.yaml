@@ -1,0 +1,35 @@
+task: obb
+model: yolo26l-obb.pt
+data: ./configs/ds_config.yaml
+
+imgsz: 736
+batch: 32
+epochs: 80
+patience: 80
+save_period: 10
+
+optimizer: auto
+lr0: 0.01
+lrf: 0.01
+cos_lr: true
+
+cls: 1.0
+angle: 45.0
+
+close_mosaic: 20
+scale: 0.3
+translate: 0.05
+hsv_h: 0.015
+hsv_s: 0.5
+hsv_v: 0.3
+erasing: 0.2
+
+multi_scale: 0.5
+max_det: 1000
+
+conf: 0.15
+
+cache: disk
+workers: 8
+name: yolo26l_drone_v2
+exist_ok: false
