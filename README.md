@@ -443,7 +443,7 @@ Input (image/video frame)
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/sajan-sarker/drone-human-detection-and-counting-system.git
 cd drone-human-detection-and-counting-system
 ```
 
