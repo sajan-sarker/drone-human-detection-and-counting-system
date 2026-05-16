@@ -9,7 +9,7 @@ __pycache__/
 # ignored dirs
 yolo/
 dataset/
-runs/obb/yolo26l_drone_v2/weights
+runs/obb/yolo26l_drone_v2/gweights
 
 # Distribution / packaging
 .Python
